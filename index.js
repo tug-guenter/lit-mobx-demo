@@ -18,6 +18,10 @@ class Counter {
   }
 }
 
+/**
+ *  TODO: refactor!
+ *  MobX 6.x doesn't support decorate anymore!!!
+ *  */
 decorate(Counter, {
   count: observable,
   decrement: action,
@@ -57,7 +61,7 @@ class MyElement extends MobxLitElement {
 
   decrementCount() {
     // and you can trigger change in event callbacks
-    this.counter.decrement(); // value is now n + 1
+    this.counter.decrement(); // value is now n - 1
   }
 }
 
