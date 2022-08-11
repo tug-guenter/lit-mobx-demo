@@ -6,6 +6,6 @@
     "@adobe/lit-mobx": "^2.0.0",
     "@webcomponents/custom-elements": "^1.5.0",
     "lit": "^2.2.8",
-    "mobx": "^5.15.7"
+    "mobx": "^6.6.1"
   }
 }
