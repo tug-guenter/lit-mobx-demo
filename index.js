@@ -19,7 +19,7 @@ class MyElement extends MobxLitElement {
   render() {
     return html`
             <h1>Hello ${this.name}!</h1>
-            Count is ${this.counter.count}
+            Count is ${this.counter.value}
             <br />
             <button @click=${this.setZeroCount}>Set to Zero (0)</button>
             <button @click=${this.decrementCount}>Sub(-)</button>
